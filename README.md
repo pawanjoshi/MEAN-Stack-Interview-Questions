@@ -29,7 +29,8 @@ You may cancel an Observable with the unsubscribe() method, Observable provides 
 **Call stack** : The call stack is used by JavaScript to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
 
 **Callback queue** :  The callback queue, as the name suggests, is a queue. Hence, functions added to it are processed in a first-in-first-out order. When the event loop in Javascript is fired, it first checks the call stack to see if it's non-empty. If so, it executes the function at the top of the stack.
-Event loop : https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript
+
+**Event loop** : https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript
 
 **Lexicalscope** : A lexical scope in JavaScript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration. But the opposite is not true; the variables defined inside a function will not be accessible outside that function.
 
