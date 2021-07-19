@@ -1,10 +1,10 @@
-#MEAN-Stack-Interview-Questions 
+**#MEAN-Stack-Interview-Questions **
 
-#JavaScript/NodeJs
+**#JavaScript/NodeJs**
 
-Pure Function :  Pure Function is a function (a block of code ) that always returns the same result if the same arguments are passed. It does not depend on any state, or data change during a program's execution rather it only depends on its input arguments
+**Pure Function :**  Pure Function is a function (a block of code ) that always returns the same result if the same arguments are passed. It does not depend on any state, or data change during a program's execution rather it only depends on its input arguments
 
-Temporal Dead Zone: Temporal Dead Zone is a behaviour that occurs with variables declared using let and const keywords.
+**Temporal Dead Zone**: Temporal Dead Zone is a behaviour that occurs with variables declared using let and const keywords.
 It is a behaviour where we try to access a variable before it is initialized.
 x = 23; // Gives reference error
 let x;
@@ -14,16 +14,16 @@ function anotherRandomFunc(){
 }
 anotherRandomFunc();
 
-call() and apply() :  Call and apply are very similar—they invoke a function with a specified this context, and optional arguments. The only difference between call and apply is that call requires the arguments to be passed in one-by-one, and apply takes the arguments as an array.
+**call() and apply()** :  Call and apply are very similar—they invoke a function with a specified this context, and optional arguments. The only difference between call and apply is that call requires the arguments to be passed in one-by-one, and apply takes the arguments as an array.
 
-Observable:
+**Observable**:
 An observer is like a stream and allows you to pass at least zero or more events where the callback is needed for each event.
 Observable is favored over Promise, it can emits multiple values over a time. The "Observable" is cold. It's not called until we're registered to it.
 You may cancel an Observable with the unsubscribe() method, Observable provides a lot of efficient operators like map, foreach, filter, reduce, retry, retryWhen etc.
 
-What are the advantages of using promises instead of callbacks : The main advantage of using promise is you get an object to decide the action that needs to be taken after the async task completes. This gives more manageable code and avoids callback hell.
+**What are the advantages of using promises instead of callbacks** : The main advantage of using promise is you get an object to decide the action that needs to be taken after the async task completes. This gives more manageable code and avoids callback hell.
 
-Diff promiss vs callback : A key difference between the two is that when using the callbacks approach we would normally just pass a callback into a function which will get called upon completion to get the result of something, whereas in promises you attach callbacks on the returned promise object
+**Diff promiss vs callback** : A key difference between the two is that when using the callbacks approach we would normally just pass a callback into a function which will get called upon completion to get the result of something, whereas in promises you attach callbacks on the returned promise object
 
 
 Call stack : The call stack is used by JavaScript to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
