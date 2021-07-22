@@ -94,6 +94,8 @@ An Observable is an object that over time and asynchronously emits multiple data
 A pure pipe is only called when Angular detects a change in the value or the parameters passed to a pipe.
 An impure pipe is called for every change detection cycle no matter whether the value or parameter(s) changes.
 
+The **async pipe** is a special kind of impure pipe that either waits for a promise to resolve to display data or subscribes to an observable to display the emitted values. The Async pipe saves boilerplate in the component code. The component doesn't have to subscribe to the async data source, extract the resolved values and expose them for binding, and have to unsubscribe when it's destroyed (a potent source of memory leaks). Let's see an example of this in action.
+
 **Reactive forms and Template-driven forms** :Template-driven forms are asynchronous in nature, whereas Reactive forms are mostly synchronous. In a template-driven approach, most of the logic is driven from the template, whereas in reactive-driven approach, the logic resides mainly in the component or typescript code.
 
 **reactive form**:  Reactive forms provide a model-driven approach to handling form inputs whose values change over time. How to create and update a basic form control, progress to using multiple controls in a group, validate form values, and create dynamic forms
