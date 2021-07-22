@@ -70,7 +70,8 @@ An event-driven programming approach uses events to trigger various functions. A
 **#Angular :**
 
 **Lazy loading** is a technique in Angular that allows us to load JavaScript components asynchronously when a specific route is activated.
-How Lazy Loading works : Lazy Loading is loaded only when we need to start the application for the first time. If the user navigates to a new page, then the component for that page will load immediately. Lazy loading avoids the need for downloading the component each time when you visit the page.
+
+**How Lazy Loading works** : Lazy Loading is loaded only when we need to start the application for the first time. If the user navigates to a new page, then the component for that page will load immediately. Lazy loading avoids the need for downloading the component each time when you visit the page.
 
 **Singltone** : A singleton is a class that allows only a single instance of itself to be created and gives access to that created instance. ... It is used in scenarios when a user wants to restrict instantiation of a class to only one object. A singleton service is a service instance that is shared across components.
 
