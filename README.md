@@ -105,7 +105,11 @@ Define advanced validation rules, including async validators (eg: check with the
 Be notified and react immediately when the value change
 Access the native HTML form element
 Reset the form...
-If you care about unit tests (good coders should), reactive forms are significantly easier to test because they can be manipulated imperative
+If you care about unit tests (good coders should), reactive forms are significantly easier to test because they can be manipulated imperative.
+
+**Dependency and Devdependency** The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime.
+
+**Interceptors** are a unique type of Angular Service that we can implement. Interceptors allow us to intercept incoming or outgoing HTTP requests using the HttpClient . By intercepting the HTTP request, we can modify or change the value of the request.
 
 **Cross-Site Scripting** : Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
 
