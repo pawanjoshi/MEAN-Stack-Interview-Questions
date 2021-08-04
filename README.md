@@ -111,6 +111,9 @@ If you care about unit tests (good coders should), reactive forms are significan
 
 **Interceptors** are a unique type of Angular Service that we can implement. Interceptors allow us to intercept incoming or outgoing HTTP requests using the HttpClient . By intercepting the HTTP request, we can modify or change the value of the request.
 
+An **Interface** is a specification that identifies a related set of properties and methods to be implemented by a class. ... The interface is simply the definition of the properties and methods, and the class that implements that interface has the actual code for each of those defined properties and methods.
+https://vegibit.com/how-to-use-an-interface-in-angular/
+
 **Cross-Site Scripting** : Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
 
 
