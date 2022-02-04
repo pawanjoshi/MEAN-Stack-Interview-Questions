@@ -2,6 +2,12 @@
 
 **#JavaScript/NodeJs**
 
+**Higher-order function** is a function that accepts functions as parameters and/or returns a function.
+
+**Currying function** is a transformation of a function with multiple arguments into a sequence of nested functions with a single argument. The currying allows to perform function specialization and composition. We can transform the fn(a,b,c) callable into fn(a)(b)(c).
+
+**The Fetch API** provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network
+
 **Pure Function :**  Pure Function is a function (a block of code ) that always returns the same result if the same arguments are passed. It does not depend on any state, or data change during a program's execution rather it only depends on its input arguments
 
 **Temporal Dead Zone**: Temporal Dead Zone is a behaviour that occurs with variables declared using let and const keywords.
@@ -25,6 +31,7 @@ You may cancel an Observable with the unsubscribe() method, Observable provides 
 
 **Diff promiss vs callback** : A key difference between the two is that when using the callbacks approach we would normally just pass a callback into a function which will get called upon completion to get the result of something, whereas in promises you attach callbacks on the returned promise object
 
+**Async** functions use an implicit Promise to return results. Even if you don't return a promise explicitly, the async function makes sure that your code is passed through a promise. **await** blocks the code execution within the async function, of which it ( await statement ) is a part. ... await is always for a single promise.
 
 **Call stack** : The call stack is used by JavaScript to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
 
